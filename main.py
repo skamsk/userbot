@@ -13,8 +13,6 @@ app = Client("my_account")
 
 
 
-
-
 # Команда type
 @app.on_message(filters.command("type", prefixes=".") & filters.me)
 def type(_, msg):
