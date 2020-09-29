@@ -1,0 +1,17 @@
+# ide, os
+.DS_Store
+.idea/
+/venv/
+__pycache__
+.pytest_cache
+# project
+configs/test.ini
+configs/local.ini
+/API/logs/
+/UI/fixture/
+/UI/failure_screenshots/
+/UI/fixture/
+/UI/frame_ttk/tests/geckodriver.log
+/screenshots/baseline/
+/screenshots/
+config
