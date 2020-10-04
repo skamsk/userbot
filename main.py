@@ -11,8 +11,6 @@ import random
 app = Client("my_account")
 
 
-
-
 # Команда type
 @app.on_message(filters.command("type", prefixes=".") & filters.me)
 def type(_, msg):
@@ -71,6 +69,8 @@ def hack(_, msg):
 
 	msg.edit("🦖 Найдены данные о существовании динозавров на земле!")
 
+
+# Команда День рождения
 @app.on_message(filters.command("dr", prefixes=".") & filters.me)
 def hack(_, msg):
 	perc = 0
@@ -120,9 +120,9 @@ def thanos(_, msg) :
 
 	app.send_message(chat, "Но какой ценой?")
 
-<<<<<<< HEAD
 
-#autosroll
+
+# Команда autoscroll
 f = filters.chat([])
 
 
@@ -141,7 +141,7 @@ def add_keep(_, message: Message):
 		f.add(message.chat.id)
 		message.edit("Autoscroll activated")
 
-#flip-text
+## Команда flip-text
 
 REPLACEMENT_MAP = {
     "a": "ɐ",
@@ -241,6 +241,4 @@ def flip(_, msg):
         msg.edit(text)
 
 
-=======
->>>>>>> 87298b8dfd8d42b09b2c65de4e188ef25d7e4966
 app.run()
