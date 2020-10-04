@@ -15,6 +15,9 @@ configs/local.ini
 /screenshots/baseline/
 /screenshots/
 config
+<<<<<<< HEAD
 /my_account.session-journal
 /my_account.session
 /config.ini
+=======
+>>>>>>> 87298b8dfd8d42b09b2c65de4e188ef25d7e4966

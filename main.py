@@ -120,6 +120,7 @@ def thanos(_, msg) :
 
 	app.send_message(chat, "Но какой ценой?")
 
+<<<<<<< HEAD
 
 #autosroll
 f = filters.chat([])
@@ -240,4 +241,6 @@ def flip(_, msg):
         msg.edit(text)
 
 
+=======
+>>>>>>> 87298b8dfd8d42b09b2c65de4e188ef25d7e4966
 app.run()
